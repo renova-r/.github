@@ -2,7 +2,6 @@
 
 **Reviving R software with AI.**
 
-让旧研究，重新运行。
 
 Renova restores archived R packages for reproducible research.
 
