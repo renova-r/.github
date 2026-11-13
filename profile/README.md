@@ -8,7 +8,7 @@ Project led by [Jing Jia](https://jjia131.github.io/), [Guanyang Wang](https://g
 
 Compute generously supported by [Open Math OS](https://www.openmathmodel.org/).
 
-[Browse packages](https://renova-r.r-universe.dev/packages)
+## [Browse restored packages →](https://renova-r.r-universe.dev/packages)
 
 ## Install
 
