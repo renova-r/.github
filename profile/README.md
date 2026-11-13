@@ -1,8 +1,8 @@
 # Renova
 
-**Reviving R software with AI.**
+**Reproducible research needs living software.**
 
-Renova restores archived R packages for reproducible research.
+When CRAN packages fall out of maintenance, the science built on them goes dark. **Renova** is an autonomous multi-agent AI system that repairs and validates legacy R software. This public catalog showcases archived CRAN packages restored by the Renova engine and ready to install.
 
 Project led by [Jing Jia](https://jjia131.github.io/), [Guanyang Wang](https://guanyangwang.github.io/), and [Peng Zhang](https://sites.google.com/site/pengzhang27182/).
 
@@ -18,3 +18,5 @@ install.packages("PACKAGE", repos = c(
   CRAN = "https://cloud.r-project.org"
 ))
 ```
+
+Compute generously supported by [Open Math OS](https://www.openmathmodel.org/).
