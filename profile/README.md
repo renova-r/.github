@@ -21,16 +21,36 @@ Renova coordinates specialized AI agents to restore archived CRAN packages. Agen
 Examples include adapting code to newer R versions, fixing compilation and dependency problems, registering missing methods, and correcting documentation and package metadata.
 
 ```mermaid
+---
+config:
+  theme: base
+  themeVariables:
+    fontSize: 14px
+    lineColor: "#94a3b8"
+    edgeLabelBackground: "#ffffff"
+  flowchart:
+    nodeSpacing: 18
+    rankSpacing: 22
+    padding: 8
+    wrappingWidth: 240
+---
 flowchart TD
-    A["Archived CRAN packages"] --> B["Coordinator<br/>Diagnose & assign"]
-    B --> C["Repair agents<br/>Code · dependencies · documentation"]
+    A["Archived CRAN<br/>packages"] --> B["Coordinator<br/>Diagnose & assign"]
+    B --> C["Repair agents<br/>Code · deps · docs"]
     C -->|"Up to 3 rounds"| C
     C --> D["Independent validation"]
-    D -->|"Validated"| F["Release to the Renova catalog"]
+    D -->|"Validated"| F["Release & catalog"]
     D -->|"Unresolved"| E["Specialist agents<br/>Repair & revalidate"]
     E -->|"Up to 2 additional rounds"| E
     E -->|"Validated"| F
-    E -->|"Still unresolved"| G["Tracked for follow-up"]
+    E -->|"Still unresolved"| G["Follow-up queue"]
+
+    classDef agent fill:#e9f2ff,stroke:#7aa2d6,color:#17467b,stroke-width:1px
+    classDef activity fill:#e8f5ed,stroke:#7eaf94,color:#245b3e,stroke-width:1px
+    classDef context fill:#f2f4f7,stroke:#b0bbc7,color:#4b586b,stroke-width:1px
+    class B,C,E agent
+    class D,F activity
+    class A,G context
 ```
 
 ## Install
