@@ -1,6 +1,6 @@
 # Renova
 
-[![Packages](https://img.shields.io/badge/Packages-59-blue?style=social&logo=r)](https://renova-r.r-universe.dev/packages) [![GitHub followers](https://img.shields.io/github/followers/renova-r?style=social&label=Followers)](https://github.com/orgs/renova-r/followers)
+[![Packages](https://img.shields.io/badge/Packages-102-blue?style=social&logo=r)](https://renova-r.r-universe.dev/packages) [![GitHub followers](https://img.shields.io/github/followers/renova-r?style=social&label=Followers)](https://github.com/orgs/renova-r/followers)
 
 **Reproducible research needs living software.**
 
