@@ -18,6 +18,8 @@ Compute generously supported by [Open Math OS](https://www.openmathmodel.org/).
 
 Renova coordinates specialized AI agents to restore archived CRAN packages. Agents diagnose problems, develop repairs, and validate results through an iterative workflow.
 
+Examples include adapting code to newer R versions, fixing compilation and dependency problems, registering missing methods, and correcting documentation and package metadata.
+
 ```mermaid
 flowchart TD
     A["Archived CRAN packages"] --> B["Coordinator<br/>Diagnose & assign"]
