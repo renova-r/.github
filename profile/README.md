@@ -14,6 +14,23 @@ Compute generously supported by [Open Math OS](https://www.openmathmodel.org/).
 
 [Browse restored packages →](https://renova-r.r-universe.dev/packages)
 
+## How Renova works
+
+Renova coordinates specialized AI agents to restore archived CRAN packages. Agents diagnose problems, develop repairs, and validate results through an iterative workflow.
+
+```mermaid
+flowchart TD
+    A["Archived CRAN packages"] --> B["Coordinator<br/>Diagnose & assign"]
+    B --> C["Repair agents<br/>Code · dependencies · documentation"]
+    C -->|"Up to 3 rounds"| C
+    C --> D["Independent validation"]
+    D -->|"Validated"| F["Release to the Renova catalog"]
+    D -->|"Unresolved"| E["Specialist agents<br/>Repair & revalidate"]
+    E -->|"Up to 2 additional rounds"| E
+    E -->|"Validated"| F
+    E -->|"Still unresolved"| G["Tracked for follow-up"]
+```
+
 ## Install
 
 Choose a package from the directory, then install it with:
