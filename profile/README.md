@@ -8,7 +8,7 @@ When CRAN packages fall out of maintenance, the science built on them goes dark.
 
 Project led by [Jing Jia](https://jjia131.github.io/), [Guanyang Wang](https://guanyangwang.github.io/), and [Peng Zhang](https://sites.google.com/site/pengzhang27182/).
 
-Contact: [Jing Jia](mailto:jing.jia@rutgers.edu) · [Guanyang Wang](mailto:guanyang.wang@rutgers.edu).
+Contact: Jing Jia — [jing.jia@rutgers.edu](mailto:jing.jia@rutgers.edu) · Guanyang Wang — [guanyang.wang@rutgers.edu](mailto:guanyang.wang@rutgers.edu) · Peng Zhang — [pz149@rutgers.edu](mailto:pz149@rutgers.edu).
 
 Compute generously supported by [Open Math OS](https://www.openmathmodel.org/).
 
